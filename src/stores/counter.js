@@ -16,14 +16,15 @@ export const counter = createSlice({
     incrementByAmount: (state, action) => {
       state.value += action.payload
     },
-  setTotal: state =>{
+    setTotal: state => {
       state.total += state.value
-  }
+    }
 
   }
 
 })
 
-export const { increment, decrement, incrementByAmount,setTotal } = counter.actions
+
+export const { increment, decrement, incrementByAmount, setTotal } = counter.actions
 
 export default counter.reducer

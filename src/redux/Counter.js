@@ -6,7 +6,7 @@ function Counter() {
     const total = useSelector(state => state.counter.total)
     return (
         <div>
-            <div> {count} </div>
+            <div className='count'> {count} </div>
             <div> {total} </div>
         </div>
 
