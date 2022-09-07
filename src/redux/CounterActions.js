@@ -1,8 +1,6 @@
 import { increment, decrement, incrementByAmount, setTotal } from '../stores/counter'
 import { useDispatch } from 'react-redux'
 
-
- 
 function CounterActions() {
     const dispatch = useDispatch()
     return (
